@@ -57,4 +57,5 @@ function handleRequest(request) {
 }
 
 console.log("Listening on http://localhost:8080");
+
 await listenAndServe(":8080", handleRequest);
